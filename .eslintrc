@@ -6,5 +6,10 @@
     "@remix-run/eslint-config/jest-testing-library",
     "prettier"
   ],
-  "ignorePatterns": ["/node_modules", "/build", "/public/build"]
+  "ignorePatterns": [
+    "/node_modules",
+    "/build",
+    "/public/build",
+    "/app/styles/tailwind.css"
+  ]
 }
